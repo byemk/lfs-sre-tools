@@ -6,15 +6,16 @@ Import, edit and export Live for Speed vehicle-editor `.sre` models in Blender 4
 - Parts you do not touch are written back byte for byte; edited parts keep their maps, mirror flags, LODs and smoothing groups.
 - Dish / curve wheels, smoothing-group tools, texture baking for models from other formats (FBX, OBJ...).
 
-## Install (with automatic updates)
+## Install (it updates itself afterwards)
 
-1. Open **https://byemk.github.io/lfs-sre-tools/**
-2. Drag the **lfs_sre_tools** link from that page onto your Blender window and confirm.
-3. Blender shows an update button whenever a new version is out (it needs *Allow Online Access* in Preferences > System).
+1. Blender 4.2 or newer: *Edit > Preferences > System*, tick **Allow Online Access**.
+2. *Preferences > Get Extensions*, the arrow menu at the top right > *Repositories* > **+** > *Add Remote Repository*.
+3. Paste `https://byemk.github.io/lfs-sre-tools/index.json`, tick **Check for Updates on Startup**, click *Create*.
+4. Search **LFS** in Get Extensions and click **Install**. The tools are in the 3D View sidebar (press N), tab *LFS*.
 
-Or: Preferences > Get Extensions > Repositories > **+** > *Add Remote Repository* and paste `https://byemk.github.io/lfs-sre-tools/index.json`.
-
-A copy installed by dragging the zip file in by hand does not update itself - remove it and install from the link.
+Blender then shows an **Update** button in Get Extensions whenever a new version is out.
+Website: https://byemk.github.io/lfs-sre-tools/ - its *lfs_sre_tools* link can also be dragged onto Blender (not every browser supports that).
+A copy installed by dragging the zip file in by hand does not update itself - remove it and install as above.
 
 ## Guide
 
