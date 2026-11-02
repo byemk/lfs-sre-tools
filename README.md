@@ -8,13 +8,15 @@ Import, edit and export Live for Speed vehicle-editor `.sre` models in Blender 4
 
 ## Install (it updates itself afterwards)
 
+**Step by step, with a picture of every click: https://byemk.github.io/lfs-sre-tools/**
+
 1. Blender 4.2 or newer: *Edit > Preferences > System*, tick **Allow Online Access**.
-2. *Preferences > Get Extensions*, the arrow menu at the top right > *Repositories* > **+** > *Add Remote Repository*.
-3. Paste `https://byemk.github.io/lfs-sre-tools/index.json`, tick **Check for Updates on Startup**, click *Create*.
+2. *Get Extensions*, the **Repositories** button at the top right > **+** > **Add Remote Repository**.
+3. Paste `https://byemk.github.io/lfs-sre-tools/index.json`, tick **Check for Updates on Startup**, click **Create**.
 4. Search **LFS** in Get Extensions and click **Install**. The tools are in the 3D View sidebar (press N), tab *LFS*.
 
 Blender then shows an **Update** button in Get Extensions whenever a new version is out.
-Website: https://byemk.github.io/lfs-sre-tools/ - its *lfs_sre_tools* link can also be dragged onto Blender (not every browser supports that).
+The website's *lfs_sre_tools* link can also be dragged onto Blender (not every browser supports that).
 A copy installed by dragging the zip file in by hand does not update itself - remove it and install as above.
 
 ## Guide
