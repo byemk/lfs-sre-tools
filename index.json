@@ -7,7 +7,7 @@
       "id": "lfs_sre_tools",
       "name": "LFS SRE Tools",
       "tagline": "Import, edit and export Live for Speed vehicle-editor models",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "type": "add-on",
       "maintainer": "Mk (Discord @byeeeeeeeeeeeeeeeeeeeeeeeeeeeeee)",
       "license": [
@@ -25,9 +25,9 @@
         "Import-Export",
         "Modeling"
       ],
-      "archive_url": "./lfs_sre_tools-2.0.4.zip",
-      "archive_size": 246950,
-      "archive_hash": "sha256:21271f62a530414009738a7a4e6f7d749bc60031c3cf53f7485f39920fc86f36"
+      "archive_url": "./lfs_sre_tools-2.0.5.zip",
+      "archive_size": 260079,
+      "archive_hash": "sha256:b7fdb1030f3b890b5e701353c938da2517385506855d93aad14670c544533976"
     }
   ]
 }
